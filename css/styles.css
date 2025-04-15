@@ -53,6 +53,7 @@ a {
     top:40px;
 }
 
+
 nav {
     font-family: junge;
     font-size: 25px;
@@ -71,8 +72,10 @@ nav {
 }
 
 .PorqueElegirnos {
-    position: relative;
-    top: 7cm;
+    max-width: 800px;
+    margin: 30px auto;
+    padding: 0 20px;
+    text-align: center;
 }
 
 .PorqueElegirnos p {
@@ -126,65 +129,96 @@ nav {
     color: #333;
 }
 
-.ProductosDestacados{
-    position: relative;
-    top: 8cm;
-    left: 0;
+.ProductosDestacados {
+    margin: 40px 0;
+    text-align: center; 
 }
 
-.ProductosImg{
-    top: 8cm;
-    left: 0;
+.ProductosGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Responsive */
+    gap: 30px; 
+    margin-top: 20px;
 }
 
-.ProductosImg ul{
-    list-style: none;
-    display: flex;
+.ProductoItem {
+    background: white;
+    border-radius: 8px;
+    padding: 15px;
+    transition: transform 0.3s;
 }
 
-.ProductosImg img{
-    padding: 0;
-    margin: 0;
-    max-width: 90%;
+.ProductoItem:hover {
+    transform: translateY(-5px); /* Efecto hover */
+}
+
+.ProductoItem img {
+    width: 100%; /* Ajuste responsive */
     height: auto;
-    gap: 20px;
+    border-radius: 5px;
 }
 
-.ProductosImg a {
-    color: black;
-    font-family: Arial, Helvetica, sans-serif;
+.BotonComprar {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 8px 15px;
+    background: #000;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
     font-size: 14px;
-    display: flex;
-    justify-content: center;
-}
-
-.FooterConfig {
-    background-color: #D9D9D9;
-    position: relative;
-    top: 10cm;
-    left: 0;
-}
-
-.FooterConfig ul {
-    list-style: none;
-    justify-content: center;
-    padding: 10px;
-    gap: 10px;
 }
 
 .RedesSociales {
     display: flex;
     position: relative;
-    top: 0cm;
-    right: 17cm;
-
+    right: 18cm;
+    top: -0.5cm;
 }
 
 .RedesSociales img {
-    padding: 0;
-    margin: 0;
-    max-width: 50%;
+    max-width: 25px;       /* Tamaño más adecuado que 5% */
     height: auto;
+    position: relative;
+
+}
+
+.FooterConfig {
+    background-color: #D9D9D9;
+    padding: 30px 20px;
+    display: flex;
+    flex-direction: column;
     gap: 20px;
-    
+    align-items: center;
+    text-align: center;
+    font-family: "Junge", serif;
+}
+
+.RedesSociales {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 10px;
+}
+
+.RedesSociales img {
+    width: 25px;
+    height: auto;
+}
+
+.InfoSuscripcion,
+.InfoLegal,
+.CopyRight {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.InfoSuscripcion p,
+.InfoLegal p {
+    margin: 8px 0;
+}
+
+.CopyRight {
+    font-size: 12px;
+    margin-top: 20px;
 }
