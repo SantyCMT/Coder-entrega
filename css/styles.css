@@ -3,6 +3,7 @@ h1 {
     font-size: 40px;
     font-family: junge;
     text-align: center;
+    z-index: 1; 
 }
 h2 {
     color: black;
@@ -60,7 +61,7 @@ nav {
     color: black;
     text-align: center;
     position: relative;
-    top: 5cm;
+    top: 8cm;
 }
 
 .Portada_img {
@@ -69,6 +70,7 @@ nav {
     position: absolute;
     top: -6cm;
     left: 0;
+    z-index: -1; /* Asegura que la imagen esté detrás del contenido */
 }
 
 .PorqueElegirnos {
@@ -93,14 +95,14 @@ nav {
 
 .rectangulo-destacado {
     position: relative;              /* Posición relativa para el contenedor */
-    top: 5.5cm;                        /* Ajusta la posición vertical del rectángulo */
+    top: 10cm;                        /* Ajusta la posición vertical del rectángulo */
     background-color: #FEFAFA;     /* Fondo blanco */
     border: 1px solid #e0e0e0;     /* Borde gris claro */
-    border-radius: 8px;              /* Esquinas redondeadas */
+    border-radius: 10px;              /* Esquinas redondeadas */
     padding: 0px;                   /* Espacio interno */
     margin: 20px auto;               /* Margen superior e inferior + centrado */
     width: 38%;                      /* Ancho relativo al contenedor padre */
-    max-width: 600px;                /* Ancho máximo opcional */
+    max-width: 650px;                /* Ancho máximo opcional */
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Sombra suave (opcional) */ 
 }
 
