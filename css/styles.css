@@ -1,0 +1,190 @@
+h1 {
+    color: black;
+    font-size: 40px;
+    font-family: junge;
+    text-align: center;
+}
+h2 {
+    color: black;
+    font-size: 20px;
+    font-family: junge;
+    text-align: center;
+}
+h3 {
+    color: black;
+    font-size: 15px;
+    font-family: junge;
+    text-align: center;
+}
+h4 {
+    color: black;
+    font-size: 10px;
+    font-family: junge;
+    text-align: center;
+}
+
+body{
+    background-color: #f0f0f0;
+    font-family: junge;
+}
+
+p{  
+    color: black;
+    font-family: junge;
+}
+
+a {
+    color: black;
+    font-family: junge;
+    text-decoration: none;
+}
+
+.IcoNav {
+    width:  20px;
+    height: 20px;
+    position: absolute;
+    top:40px;
+}
+
+.TextNav {
+    width:  30px;
+    height: 30px;
+    position: absolute;
+    top:40px;
+}
+
+nav {
+    font-family: junge;
+    font-size: 25px;
+    color: black;
+    text-align: center;
+    position: relative;
+    top: 5cm;
+}
+
+.Portada_img {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: -6cm;
+    left: 0;
+}
+
+.PorqueElegirnos {
+    position: relative;
+    top: 7cm;
+}
+
+.PorqueElegirnos p {
+    font-size: 15px;
+    color: black;
+    font-family: junge;
+    text-align: center;
+}
+
+.Servicios {
+    position: relative;
+    top: 6cm;
+    left: 0;
+}
+
+.rectangulo-destacado {
+    position: relative;              /* Posición relativa para el contenedor */
+    top: 5.5cm;                        /* Ajusta la posición vertical del rectángulo */
+    background-color: #FEFAFA;     /* Fondo blanco */
+    border: 1px solid #e0e0e0;     /* Borde gris claro */
+    border-radius: 8px;              /* Esquinas redondeadas */
+    padding: 0px;                   /* Espacio interno */
+    margin: 20px auto;               /* Margen superior e inferior + centrado */
+    width: 38%;                      /* Ancho relativo al contenedor padre */
+    max-width: 600px;                /* Ancho máximo opcional */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Sombra suave (opcional) */ 
+}
+
+.rectangulo-destacado ul {
+    list-style: none;                /* Quita los puntos de la lista */
+    padding: 1px;                      /* Quita el padding por defecto */
+    margin: 0;                       /* Quita el margin por defecto */
+    display: flex;                   /* Distribución horizontal */
+    justify-content: space-evenly;   /* Espaciado uniforme */
+    flex-wrap: wrap;                 /* Responsive: ajuste en pantallas pequeñas */
+}
+
+.rectangulo-img{
+    width: 40px;                   /* Ancho de las imágenes */
+    height: 40px;                  /* Alto de las imágenes */
+    margin: 0 auto;                /* Centrado horizontal */
+    display: flex;                  /* Flexbox para centrar el contenido */
+    justify-content: center;        /* Centrado horizontal */
+    align-items: center;            /* Centrado vertical */
+}
+
+.rectangulo-destacado li {
+    text-align: center;              /* Texto centrado */
+    padding: 10px;
+    font-size: 12px;
+    color: #333;
+}
+
+.ProductosDestacados{
+    position: relative;
+    top: 8cm;
+    left: 0;
+}
+
+.ProductosImg{
+    top: 8cm;
+    left: 0;
+}
+
+.ProductosImg ul{
+    list-style: none;
+    display: flex;
+}
+
+.ProductosImg img{
+    padding: 0;
+    margin: 0;
+    max-width: 90%;
+    height: auto;
+    gap: 20px;
+}
+
+.ProductosImg a {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+}
+
+.FooterConfig {
+    background-color: #D9D9D9;
+    position: relative;
+    top: 10cm;
+    left: 0;
+}
+
+.FooterConfig ul {
+    list-style: none;
+    justify-content: center;
+    padding: 10px;
+    gap: 10px;
+}
+
+.RedesSociales {
+    display: flex;
+    position: relative;
+    top: 0cm;
+    right: 17cm;
+
+}
+
+.RedesSociales img {
+    padding: 0;
+    margin: 0;
+    max-width: 50%;
+    height: auto;
+    gap: 20px;
+    
+}
